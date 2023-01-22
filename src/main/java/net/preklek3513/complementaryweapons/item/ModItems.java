@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, ComplementaryWeapons.MODID);
 
     public static final RegistryObject<Item> MILK = ITEMS.register("milk",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.COMPLEMENTARY_WEAPONS_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

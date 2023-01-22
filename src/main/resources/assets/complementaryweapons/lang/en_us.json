@@ -1,3 +1,5 @@
 {
-  "item.complementaryweapons.milk": "Milk"
+  "item.complementaryweapons.milk": "Milk",
+
+  "itemGroup.complementaryweaponstab": "Complementary: Weapons"
 }
